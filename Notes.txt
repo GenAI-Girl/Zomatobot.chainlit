@@ -1,0 +1,18 @@
+##Start your project
+JUST BASICS
+1. Create an environment - python virtual environment/conda environment
+    python virtual environment - environment folder will be created in project folder
+    Steps to follow
+        #command helps to create an environment with name chatbot
+        python3 -m venv chatbot
+        #activating the terminal with chatbot python environment
+        source chatbot/bin/activate
+    conda environment - conda framework helps you to create separate environment with specific python
+Steps to follow 
+        #create python environment with specific version
+        conda create -n zomatoapp python=3.10
+        #activate the conda environment
+        conda activate zomatoapp
+2. Declare all the api_keys and secret keys in .env 
+3. Create .gitignore file to avoid pushing the secret keys to github in future
+4. chainlit run app.py
